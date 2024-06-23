@@ -78,3 +78,10 @@ body {
 .dz-bg-section{
   background-color: #f9fafc;
 }
+
+:target:before {
+  content: "";
+  display: block;
+  height: 300px;
+  margin: -250px 0 0;
+}
