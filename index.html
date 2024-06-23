@@ -24,23 +24,35 @@
 </head>
 
 <body class="dz-bg-body">
-    <nav class="navbar navbar-expand-lg navbar-dark dz-bg-nav ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-dark dz-bg-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
                 <img src="assets/img/logodz.png" class="img-fluid logomax">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#perfil">Perfíl</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#capacitacion">Capacitación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -59,7 +71,7 @@
         </section>
 
         <!-- Educación -->
-        <section class="container text-start mt-0 p-2 dz-bg-section">
+        <section class="container text-start mt-0 p-2 dz-bg-section" id="perfil">
             <p class="dz-tittle dz-color-cyan ps-2">Perfil Profesional</p>
             <div class="row ps-3">
                 <p class="m-0 dz-texto2">
@@ -76,7 +88,7 @@
         </section>
 
         <!-- Educación -->
-        <section class="container text-start mt-0 p-2 dz-bg-section">
+        <section class="container text-start mt-0 p-2 dz-bg-section" id="educacion">
             <p class="dz-tittle dz-color-cyan ps-2">Educación</p>
             <div class="row ps-3 ps-lg-0">
                 <div class="col-12 col-sm-6 col-lg-4 mb-2 d-flex">
@@ -101,8 +113,8 @@
                 </div>
             </div>
         </section>
-        <!-- Educación -->
-        <section class="container text-start mt-0 p-2 dz-bg-section">
+        <!-- Capacitaciones -->
+        <section class="container text-start mt-0 p-2 dz-bg-section" id="capacitacion">
             <p class="dz-tittle dz-color-cyan ps-2">Capacitaciones</p>
             <div class="row ps-3 ps-lg-0">
                 <div class="col-12 col-sm-6 col-lg-4 mb-2 d-flex">
@@ -118,7 +130,7 @@
             </div>
         </section>
         <!-- Experiencia -->
-        <section class="container text-start mt-0 p-2 dz-bg-section">
+        <section class="container text-start mt-0 p-2 dz-bg-section" id="experiencia">
             <p class="dz-tittle dz-color-cyan ps-2">Experiencia</p>
             <div class="row ps-3 ps-lg-0">
                 <div class="col-12 col-sm-6 mb-2 d-flex">
@@ -156,7 +168,7 @@
         </section>
 
         <!-- Proyectos -->
-        <section class="container text-start mt-0 p-2 mb-4 dz-bg-section">
+        <section class="container text-start mt-0 p-2 mb-4 dz-bg-section" id="proyectos">
             <p class="dz-tittle dz-color-cyan ps-2">Proyectos</p>
             <div class="card-group">
                 <div class="card m-2">
